@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Delicious Eats - Home</title>
+  <style>
+    /* Resetting default browser styles */
+    body, h1, h2, h3, p, ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Basic styling */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color:salmon ;
+      padding: 20px;
+
+    }
+    .wel{
+        font-size: 3em;
+        color: wheat ;
+        text-shadow: #ccc;
+        text-decoration: double;
+        animation: fadeInUp 1.5s ease-out forwards;
+    }
+
+    @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                margin-top: 0;
+            }
+        }
+
+    nav ul {
+      list-style: none;
+    }
+    h2,h3{
+        color: whitesmoke;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      color: wheat; /* changed the color of all 'a' tags to white */
+    }
+
+    a:hover {
+      text-decoration: underline; /* Adding underline on hover (optional) */
+      color: #fff;
+    }
+
+    .cap{
+        color: whitesmoke;
+        font-size: 1em;
+    }
+
+    .section {
+      padding: 50px 20px;
+      text-align: center;
+      background-color: coral;
+    }
+
+    .menu-items {
+      display: flex;
+      justify-content: space-around;
+      background-color: tomato;
+    }
+
+    .menu-item {
+      flex: 1;
+      margin: 10px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: salmon;
+    }
+
+    footer {
+      background-color: #333333da;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section">
+    <h1 class="wel">Welcome to Stanislaus Savory Delights</h1>
+    <p class="cap">Embark on a Savory and Flavorful Journey with Our Irresistible African Delicacies and Feasts!<br><b>✨🍴🥘🍲✨</b></p>
+  </section>
+
+  <section id="menu" class="section">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <h3>Appetizers</h3>
+        <ul>
+            <li><a href="#home">Chicken Wings</a></li>
+            <li><a href="#menu">Fried Shrimps</a></li>
+            <li><a href="#about">Bread</a></li>
+            <li><a href="#contact">Nachos</a></li>
+          </ul>
+      </div>
+      <div class="menu-item">
+        <h3>Main Course</h3>
+        <ul>
+            <li><a href="#home">Coconut Rice </a></li>
+            <li><a href="#menu">GizDodo</a></li>
+            <li><a href="#about">Yam and Egg Sauce</a></li>
+            <li><a href="#contact">Jellof rice and Moi-Moi</a></li>
+          </ul>
+      </div>
+      <div class="menu-item">
+        <h3>Desserts</h3>
+        <ul>
+            <li><a href="#home">Puff-Puff</a></li>
+            <li><a href="#menu">Coconut Candy</a></li>
+            <li><a href="#about">Plantain Chips</a></li>
+            <li><a href="#contact">Date Palms</a></li>
+          </ul>
+      </div>
+    </div>
+        <div class="menu-items">
+          <div class="menu-item">
+            <h3>Nigerian Soup</h3>
+            <ul>
+                <li><a href="#home">Bitter Leaf </a></li>
+                <li><a href="#menu">Ewedu</a></li>
+                <li><a href="#about">Banga soup</a></li>
+                <li><a href="#contact">Edikang Ikong</a></li>
+              </ul>
+          </div>
+          <div class="menu-item">
+            <h3>Swallows</h3>
+            <ul>
+                <li><a href="#home">Pounded Yam </a></li>
+                <li><a href="#menu">Fufu</a></li>
+                <li><a href="#about">Amala</a></li>
+                <li><a href="#contact">Eba</a></li>
+                <li><a href="#contact">Starch</a></li>
+              </ul>
+          </div>
+          <div class="menu-item">
+            <h3>Protein</h3>
+            <ul>
+                <li><a href="#home">Peppered Snail </a></li>
+                <li><a href="#menu">Grilled Chicken</a></li>
+                <li><a href="#about">Cow leg Pepper soup</a></li>
+                <li><a href="#contact">Fried Fish</a></li>
+              </ul>
+          </div>
+        </div>
+      </section>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p style="color: whitesmoke;">At Stanislaus Savory Delights, our mission is to delight your taste buds with the authentic flavors of African cuisine. We are dedicated to crafting culinary experiences that celebrate the richness of tradition, the diversity of our continent, and the joy of sharing delicious meals with friends and family. Through passion, creativity, and a commitment to quality, we strive to create a welcoming space where every bite tells a story, and every meal becomes a cherished memory.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2 >Contact Us</h2>
+    <p style="color: whitesmoke;">Reach out to us for reservations and inquiries. <br>📧 Email: info@stanislaussavorydelights.com <br>📞 Phone: +2347035415249</p>
+</section>
+
+  <footer>
+    <p>&copy; 2024 Stanislaus Savory Delights. All rights reserved.</p>
+  </footer>
+</body>
+</html>
